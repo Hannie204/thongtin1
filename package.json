@@ -1,9 +1,7 @@
 {
-  "homepage": "https://duonghuuthanh.github.io/IT202...",
+  "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
