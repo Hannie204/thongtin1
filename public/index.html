@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Thông tin</title>
+    <style>
+        body {
+  background-image: url('https://cdn.discordapp.com/attachments/1020013741196189729/1096113839440924815/anh.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+      /* Thiết lập phần giao diện cho trang web */
+      body {
+        font-family: sans-serif;
+        background-color: #f2f2f2;
+      }
+      #container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      form {
+        margin-bottom: 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input[type="text"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #0066cc;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #0059b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Thông tin</h1>
+      <form action="/send_data" method="post">
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name">
+        <label for="age">Tuổi:</label>
+        <input type="text" id="age" name="age">
+        <input type="submit" value="Gửi" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley')">
+      </form>
+    </div>
+  </body>
+</html>
